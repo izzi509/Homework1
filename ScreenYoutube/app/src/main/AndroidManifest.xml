@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.delva.screenyoutube">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Screen1Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Screen2Activity" />
+        <activity android:name=".Screen3Activity" />
+        <activity android:name=".Screen4Activity" />
+        <activity android:name=".ScreenActivity" />
+        <activity android:name=".Screen6Activity" />
+        <activity android:name=".Screen7Activity" />
+        <activity android:name=".Screen8Activity" />
+        <activity android:name=".Screen9Activity" />
+        <activity android:name=".Screen10Activity" />
+        <activity android:name=".Screen11Activity" />
+        <activity android:name=".Screen12Activity" />
+        <activity android:name=".Screen13Activity" />
+        <activity android:name=".Screen14Activity" />
+        <activity android:name=".Screen15Activity" />
+        <activity android:name=".Screen16Activity" />
+        <activity android:name=".Screen17Activity" />
+        <activity android:name=".Screen18Activity" />
+        <activity android:name=".Screen19Activity" />
+        <activity android:name=".Screen20Activity"></activity>
+    </application>
+
+</manifest>

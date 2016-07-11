@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.delva.screenyoutube.Screen18Activity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView18"
+        android:src="@drawable/scn_18_search_results" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:text="New Button"
+        android:id="@+id/button18"
+        android:layout_x="2dp"
+        android:layout_y="50dp"
+        android:alpha="0"
+        android:onClick="funcScreen18" />
+</AbsoluteLayout>
